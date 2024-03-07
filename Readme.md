@@ -2,7 +2,8 @@
 
 # OpenWeather SDK
 
-The OpenWeather SDK is a simple Java library for interacting with the OpenWeather API, providing easy access for fetching weather by city name.
+The OpenWeather SDK is a simple Java library for interacting with the OpenWeather API, providing easy access for
+fetching weather by city name.
 
 ## Features
 
@@ -19,10 +20,11 @@ at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) and obtain yo
 ### Installation
 
 Add Jitpack to repositories in your gradle.build and add the following dependency:
+
 ```groovy
 repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
