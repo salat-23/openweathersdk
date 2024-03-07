@@ -18,8 +18,17 @@ at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) and obtain yo
 
 ### Installation
 
-Currently, the SDK needs to be manually included in your project. Future updates will include package management
-support.
+Add Jitpack to repositories in your gradle.build and add the following dependency:
+```groovy
+repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.salat-23:openweathersdk:1.0.0'
+}
+```
 
 ### Quick Start Guide
 
