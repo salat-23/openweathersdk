@@ -1,2 +1,5 @@
 jdk:
   - openjdk11
+before_install:
+  - sdk install EclipseAdoptium.Temurin.11.JDK
+  - sdk use java EclipseAdoptium.Temurin.11.JDK
